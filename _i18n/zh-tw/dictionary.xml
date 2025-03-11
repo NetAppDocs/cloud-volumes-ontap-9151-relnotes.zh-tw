@@ -818,4 +818,8 @@
   <block id="5313a9ac102424f63dd4d76f5280130e" category="sidebar">AWS的限制</block>
   <block id="1fff298355326f8c77bd77059a41c1a2" category="sidebar">Azure的限制</block>
   <block id="9a3a0c4b2afbb088e029484d4b34ba8b" category="sidebar">Google Cloud的限制</block>
+  <block id="add4650fe6edd8ef1daf8bf53776fb35" category="section-title">9.15.1 第 7 頁（ 2025 年 3 月 10 日）</block>
+  <block id="dd0e59dbbbb851076ddfea2660d5a696" category="paragraph">所有雲端供應商現在都可以使用 Cloud Volumes ONTAP 9.15.1 P7 修補程式。BlueXP會提示您將現有系統升級至此修補程式版本。</block>
+  <block id="7fa6a95154192207488dcc8bf13f9366" category="inline-link-macro">檢視 P7 修補程式中修正的錯誤清單</block>
+  <block id="4e03a43ea47aeb577c42f9ad324a3454" category="paragraph"><block ref="f1b8440cb42692a81435e657f5965214" category="inline-link-macro-rx"></block> （需要登入 NetApp 支援網站）。</block>
 </blocks>
