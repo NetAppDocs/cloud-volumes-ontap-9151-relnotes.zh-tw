@@ -837,4 +837,8 @@
   <block id="21d13ae0920cc60798a6732ad38d483e" category="paragraph">所有雲端供應商現在都可以使用 Cloud Volumes ONTAP 9.15.1 P11 修補程式。BlueXP會提示您將現有系統升級至此修補程式版本。</block>
   <block id="4d51ff14f4691186785e9ce841b8db7c" category="inline-link-macro">檢視 P11 修補程式中修正的錯誤清單</block>
   <block id="53ada277b14da25d31bb7f3d103a6163" category="paragraph"><block ref="c1097ddb08efba068505acb744b61722" category="inline-link-macro-rx"></block> （需要登入 NetApp 支援網站）。</block>
+  <block id="43ffac3ecb33d2851f6681cf1c69e10a" category="section-title">9.15.1 P12（2025 年 8 月 22 日）</block>
+  <block id="7ef6a81fba3b8b728766bbdcd310c798" category="paragraph">9.15.1 P12 補丁現已可供所有雲端供應商的Cloud Volumes ONTAP使用。BlueXP提示您將現有系統升級至此修補程式版本。</block>
+  <block id="8a1258bf37cf0340b92dd9f9ca39acfa" category="inline-link-macro">查看 P12 補丁修復的錯誤列表</block>
+  <block id="1839aed191967f0dfe1cd8d95c24cb72" category="paragraph"><block ref="7627f9c7fb46a08c0bd284c3a2b4b57c" category="inline-link-macro-rx"></block> （需要登入NetApp支援站點）。</block>
 </blocks>
