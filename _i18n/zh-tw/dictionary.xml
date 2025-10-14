@@ -840,13 +840,13 @@
   <block id="8a1258bf37cf0340b92dd9f9ca39acfa" category="inline-link-macro">查看 P12 補丁修復的錯誤列表</block>
   <block id="1839aed191967f0dfe1cd8d95c24cb72" category="paragraph"><block ref="7627f9c7fb46a08c0bd284c3a2b4b57c" category="inline-link-macro-rx"></block> （需要登入NetApp支援站點）。</block>
   <block id="b250cfb650e13af864e75c47639d479c" category="section-title">9.15.1 P14（2025年10月9日）</block>
-  <block id="4ac8d4806d76ed7125728019f5ac7dc2" category="paragraph">9.15.1 P14 補丁現已可供所有雲端供應商的Cloud Volumes ONTAP使用。NetApp Console將提示您將現有系統升級至此修補程式版本。</block>
   <block id="c476446cae3f83bea1b304ddc122e040" category="inline-link-macro">查看 P14 補丁修復的錯誤列表</block>
   <block id="ea1333faad968a87adb5b97fb42f209a" category="paragraph"><block ref="ff1d96417d2f47f4fa1f516b447772c0" category="inline-link-macro-rx"></block> （需要登入NetApp支援站點）。</block>
   <block id="bea8a2ff279355e1f66ff86b82575e54" category="section-title">9.15.1 P13（2025年10月9日）</block>
-  <block id="dc350c601e726e6f641c386c6dd986b9" category="paragraph">9.15.1 P13 補丁現已可供所有雲端供應商的Cloud Volumes ONTAP使用。NetApp Console將提示您將現有系統升級至此修補程式版本。</block>
   <block id="fc8e67b0bd5bbf26831e34a1066ac996" category="inline-link-macro">查看 P13 補丁修復的錯誤列表</block>
   <block id="be999fe0b627760ef402ad7df5008fe1" category="paragraph"><block ref="b0bc3ebbc9e610d1dac4e57f16939acc" category="inline-link-macro-rx"></block> （需要登入NetApp支援站點）。</block>
   <block id="a4b4460d6fb6c25a6520fe60eba7e3da" category="section-title">9.15.1 P11（2025 年 7 月 04 日）</block>
   <block id="c50aad5510d202b1b6b9d3aaa902a6db" category="section-title">9.15.1 P1（2024 年 9 月 03 日）</block>
+  <block id="7154c540487dc9b8aa5fe16a2bb93c7e" category="paragraph">9.15.1 P14 補丁現已可供所有雲端供應商的Cloud Volumes ONTAP使用。NetApp Console將提示您將現有系統升級至此修補程式版本。</block>
+  <block id="7968735d85ca87c9b89e7bcbaa2b7c54" category="paragraph">9.15.1 P13 補丁現已可供所有雲端供應商的Cloud Volumes ONTAP使用。NetApp Console將提示您將現有系統升級至此修補程式版本。</block>
 </blocks>
