@@ -16,13 +16,21 @@ summary: Cloud Volumes ONTAP 9.15.1 包含新的增強功能。
 [role="lead"]
 Cloud Volumes ONTAP 9.15.1 包含新的增強功能。
 
-最新版的BlueXP也會提供其他功能和增強功能。如 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["BlueXP版本說明"^]需詳細資訊、請參閱。
+最新版本的NetApp Console也引進了其他功能和增強功能。欲了解更多信息，請參閱 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html["Cloud Volumes ONTAP"^] 在控制台中管理。
+
+
+
+== 9.15.1 P15（2025年10月24日）
+
+9.15.1 P15 補丁現已可供所有雲端供應商的Cloud Volumes ONTAP使用。控制台將提示您將現有系統升級到此補丁版本。
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.15.1P15["查看 P15 補丁修復的錯誤列表"^]（需要登入NetApp支援站點）。
 
 
 
 == 9.15.1 P14（2025年10月9日）
 
-9.15.1 P14 補丁現已可供所有雲端供應商的Cloud Volumes ONTAP使用。NetApp Console將提示您將現有系統升級至此修補程式版本。
+9.15.1 P14 補丁現已可供所有雲端供應商的Cloud Volumes ONTAP使用。控制台將提示您將現有系統升級到此補丁版本。
 
 link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.15.1P14["查看 P14 補丁修復的錯誤列表"^] （需要登入NetApp支援站點）。
 
@@ -30,7 +38,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 == 9.15.1 P13（2025年10月9日）
 
-9.15.1 P13 補丁現已可供所有雲端供應商的Cloud Volumes ONTAP使用。NetApp Console將提示您將現有系統升級至此修補程式版本。
+9.15.1 P13 補丁現已可供所有雲端供應商的Cloud Volumes ONTAP使用。控制台將提示您將現有系統升級到此補丁版本。
 
 link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.15.1P13["查看 P13 補丁修復的錯誤列表"^] （需要登入NetApp支援站點）。
 

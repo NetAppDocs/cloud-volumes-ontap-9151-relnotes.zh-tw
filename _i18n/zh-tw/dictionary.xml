@@ -380,7 +380,6 @@
   <block id="2d9da48a9b4a4fd6966adc9c52393b79" category="doc">Azure的已知限制</block>
   <block id="4e9780ecc95f5dbfb27e64e3ded5cd85" category="paragraph">下列已知限制僅適用於Cloud Volumes ONTAP Microsoft Azure中的功能。請務必同時檢閱<block ref="edcf15b4d9d7d1e018ccca7ce112dd3e" category="inline-link-macro-rx"></block>。</block>
   <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">使用 Azure VM 延伸功能的限制</block>
-  <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">Cloud Volumes ONTAP 不支援部署中的 Azure 虛擬機器（ VM ）延伸功能和 VM 應用程式。在 Azure 中使用 Cloud Volumes ONTAP 搭配 VM 延伸功能會導致作業延遲， NetApp 建議您避免這些延遲。</block>
   <block id="0ef515bdf91048074b68adb0d7ce587e" category="paragraph">Cloud Volumes ONTAP 在某些 VM 類型中使用本機 NVMe 儲存設備做為 _Flash Caches_ 。請注意此限制：</block>
   <block id="7616922b4f9b85f327fb9c04518fc90f" category="list-text">不支援重新開機後的快取重新暖機。</block>
   <block id="d91c9372e1fdf74d651217f1a36e518b" category="inline-link">檢視支援的Azure地區清單</block>
@@ -714,8 +713,6 @@
   <block id="fbd5af992908b9931b0ae311f285c7d5" category="summary">Cloud Volumes ONTAP 9.15.1 包含新的增強功能。</block>
   <block id="83a60efee029f00eebfd929bdfd93b02" category="doc">Cloud Volumes ONTAP 9.15.1 的新增功能</block>
   <block id="b4c1aa9082f0d8e4483e610ea5ab6d33" category="paragraph">Cloud Volumes ONTAP 9.15.1 包含新的增強功能。</block>
-  <block id="9889b7a9df56580016f59ccd942fb1d1" category="inline-link">BlueXP版本說明</block>
-  <block id="4bdb15bfe1bad472d818dc31e8f53185" category="paragraph">最新版的BlueXP也會提供其他功能和增強功能。如<block ref="c7887e85c6060ae2594d873a0f2ae025" category="inline-link-rx"></block>需詳細資訊、請參閱。</block>
   <block id="ae1d06c72e1d3684dc2b0784b447f8bb" category="section-title">9.15.1 P6 （ 2025 年 1 月 20 日）</block>
   <block id="e685687a0700868820f260439fea454f" category="paragraph">所有雲端供應商現在都可以使用 Cloud Volumes ONTAP 9.15.1 P6 修補程式。BlueXP會提示您將現有系統升級至此修補程式版本。</block>
   <block id="4d90d21642c7222312363da000d7409f" category="inline-link-macro">檢視 P6 修補程式中修正的錯誤清單</block>
@@ -847,6 +844,15 @@
   <block id="be999fe0b627760ef402ad7df5008fe1" category="paragraph"><block ref="b0bc3ebbc9e610d1dac4e57f16939acc" category="inline-link-macro-rx"></block> （需要登入NetApp支援站點）。</block>
   <block id="a4b4460d6fb6c25a6520fe60eba7e3da" category="section-title">9.15.1 P11（2025 年 7 月 04 日）</block>
   <block id="c50aad5510d202b1b6b9d3aaa902a6db" category="section-title">9.15.1 P1（2024 年 9 月 03 日）</block>
-  <block id="7154c540487dc9b8aa5fe16a2bb93c7e" category="paragraph">9.15.1 P14 補丁現已可供所有雲端供應商的Cloud Volumes ONTAP使用。NetApp Console將提示您將現有系統升級至此修補程式版本。</block>
-  <block id="7968735d85ca87c9b89e7bcbaa2b7c54" category="paragraph">9.15.1 P13 補丁現已可供所有雲端供應商的Cloud Volumes ONTAP使用。NetApp Console將提示您將現有系統升級至此修補程式版本。</block>
+  <block id="fe70a2c1423d8dc6d93d9ed56139eace" category="inline-link">Azure VM 管理擴充功能可以安裝到 Cloud Volume ONTAP中嗎？</block>
+  <block id="57ffa4e4634e4030ce4314e8507b6ac1" category="paragraph">Cloud Volumes ONTAP不支援 Azure 虛擬機器 (VM) 擴展，因為它們會影響NetApp Console中的管理操作。在部署期間，控制台會阻止在您的虛擬機器上安裝任何擴充功能。如果您現有的Cloud Volumes ONTAP VM 上已安裝擴展，請聯絡 Microsoft Azure 支援將其刪除。如需指導，請參閱知識庫 (KB) 文章<block ref="91819095f9753eb451eb4e908a53f8c0" category="inline-link-rx"></block></block>
+  <block id="cdea228f1fb9b0b9d76a0a25fd7fbfba" category="paragraph">從 2025 年 7 月 14 日開始，如果在您的Cloud Volumes ONTAP VM 上偵測到 VM 擴展， NetApp將發送電子郵件並在控制台中通知您。</block>
+  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link">Cloud Volumes ONTAP</block>
+  <block id="5d1eb95c23458b15c13fe46f408728aa" category="paragraph">最新版本的NetApp Console也引進了其他功能和增強功能。欲了解更多信息，請參閱<block ref="56e5ce972271b4b4616ecc1db39a9778" category="inline-link-rx"></block> 在控制台中管理。</block>
+  <block id="429495ba2c4dc5c484de64b1db5fd89f" category="section-title">9.15.1 P15（2025年10月24日）</block>
+  <block id="699fe82e22438f1032454ac32aa4e8d2" category="paragraph">9.15.1 P15 補丁現已可供所有雲端供應商的Cloud Volumes ONTAP使用。控制台將提示您將現有系統升級到此補丁版本。</block>
+  <block id="33574a05549f99fccdd87d54c230615f" category="inline-link-macro">查看 P15 補丁修復的錯誤列表</block>
+  <block id="1b91cb1db5fb75c00134cda2e4b2b2cd" category="paragraph"><block ref="3440e8b5c6746799d183afaf401c4952" category="inline-link-macro-rx"></block>（需要登入NetApp支援站點）。</block>
+  <block id="785bea81f47185bf9b618826ccf1d1b6" category="paragraph">9.15.1 P14 補丁現已可供所有雲端供應商的Cloud Volumes ONTAP使用。控制台將提示您將現有系統升級到此補丁版本。</block>
+  <block id="d86b9f59eb8cb7a8534fb5372625567a" category="paragraph">9.15.1 P13 補丁現已可供所有雲端供應商的Cloud Volumes ONTAP使用。控制台將提示您將現有系統升級到此補丁版本。</block>
 </blocks>
