@@ -20,6 +20,14 @@ Cloud Volumes ONTAP 9.15.1 包含新的增強功能。
 
 
 
+== 9.15.1 P16（2025年12月22日）
+
+9.15.1 P16 補丁現已可供所有雲端供應商的Cloud Volumes ONTAP使用。控制台將提示您將現有系統升級到此補丁版本。
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.15.1P16["查看 P16 補丁修復的錯誤列表"^]（需要登入NetApp支援站點）。
+
+
+
 == 9.15.1 P15（2025年10月24日）
 
 9.15.1 P15 補丁現已可供所有雲端供應商的Cloud Volumes ONTAP使用。控制台將提示您將現有系統升級到此補丁版本。
