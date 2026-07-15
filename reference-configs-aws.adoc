@@ -18,6 +18,7 @@ AWS支援多Cloud Volumes ONTAP 種支援的支援功能。
 
 
 
+[[supported-number-of-nodes]]
 == 支援的節點數
 
 AWS可在單一節點系統中使用、也可作為高可用度（HA）節點配對、以提供容錯功能和不中斷營運。Cloud Volumes ONTAP
@@ -26,12 +27,14 @@ AWS可在單一節點系統中使用、也可作為高可用度（HA）節點配
 
 
 
+[[supported-storage]]
 == 支援的儲存設備
 
 支援多種EBS磁碟類型、以及S3物件儲存、以利資料分層。Cloud Volumes ONTAP最大儲存容量取決於您選擇的授權。
 
 
 
+[[storage-support-by-license]]
 === 依授權提供儲存支援
 
 每個授權都支援不同的最大系統容量。最大系統容量包括磁碟型儲存設備、以及用於資料分層的物件式儲存設備。NetApp不支援超過此限制。
@@ -109,6 +112,7 @@ AWS可在單一節點系統中使用、也可作為高可用度（HA）節點配
 ====
 
 
+[[supported-disk-sizes]]
 === 支援的磁碟大小
 
 在 AWS 中、 Aggregate 最多可包含 6 個大小相同的磁碟。但如果您的組態支援 Amazon EBS Elastic Volumes 功能、則集合最多可包含 8 個磁碟。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-aws-elastic-volumes.html["深入瞭解彈性磁碟區的支援"^]
@@ -151,13 +155,14 @@ AWS可在單一節點系統中使用、也可作為高可用度（HA）節點配
 |===
 
 
+[[supported-ec2-compute]]
 == 支援的EC2運算
 
 每Cloud Volumes ONTAP 個支援不同EC2執行個體類型的支援。為了方便起見、下表顯示每種支援執行個體類型的 vCPU 、 RAM 和頻寬。 https://aws.amazon.com/ec2/instance-types/["您應該參閱AWS以取得EC2執行個體類型的最新完整詳細資料"^]。
 
 可在保留或隨需EC2執行個體上執行。Cloud Volumes ONTAP不支援使用其他執行個體類型的解決方案。
 
-下表所示的頻寬與每個執行個體類型的AWS記錄限制相符。這些限制並不完全符合Cloud Volumes ONTAP 本公司所能提供的功能。如需預期效能、請 https://www.netapp.com/pdf.html?item=/media/9088-tr4383pdf.pdf["NetApp 技術報告 4383 ： Cloud Volumes ONTAP 運用應用程式工作負載、將 Amazon Web Services 中的功能特性化"^]參閱。
+下表所示的頻寬與每種執行個體類型的 AWS 文件化限制相符。這些限制與 Cloud Volumes ONTAP 所能提供的效能並不完全一致。有關預期效能，請參閱 https://www.netapp.com/pdf.html?item=/media/9088-tr4383.pdf["NetApp 技術報告 4383 ： Cloud Volumes ONTAP 運用應用程式工作負載、將 Amazon Web Services 中的功能特性化"^]。
 
 [cols="8*"]
 |===
@@ -254,6 +259,7 @@ AWS 本機區域中的這些執行個體類型不支援高寫入速度。
 
 
 
+[[supported-regions]]
 == 支援的地區
 
 如需 AWS 區域支援 https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes全球區域"^]、請參閱。
